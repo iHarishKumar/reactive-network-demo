@@ -88,13 +88,6 @@ Deploy the `UtilityToken` contract and assign the `Deployed to` address from the
 forge create --broadcast --rpc-url $DESTINATION_RPC --account $FORGE_ACCOUNT src/contracts/UtilityToken.sol:UtilityToken --constructor-args $DESTINATION_CALLBACK_PROXY_ADDR
 ```
 
-The above command produces this output
-```bash
-Deployer: 0xecD0cC6127F01CF483F90cbf123e0FB5c8539A1B
-Deployed to: 0x7E0639632A45Adc422ab82F76c08911060fc1A9a
-Transaction hash: 0x216df30aba6288d8ff02b4a6a6039cc6a720eec7893c174911d97569f394197c
-```
-
 To verify the deployed contract, run the following command
 
 ```bash
