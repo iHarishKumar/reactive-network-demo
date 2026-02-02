@@ -131,10 +131,7 @@ Once the contract is funded, we need to invoke the coverDebt function to clear t
 ```bash
 cast send --rpc-url $REACTIVE_RPC --account $FORGE_ACCOUNT $REACTIVE_CONTRACT_ADDR "coverDebt()"
 ```
-<<<<<<< HEAD
 
 # Resources
 * [Reactive Network Documentation](https://dev.reactive.network/)
 * [Foundry Documentation](https://book.getfoundry.sh/)
-=======
->>>>>>> 9f05a0ef638a0ba545bbddf5f68941c9470b8936
